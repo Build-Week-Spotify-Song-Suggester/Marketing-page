@@ -142,9 +142,12 @@ html {
 }
 .nav-bar {
   background-color: #353D45;
-}
-.nav-container {
   display: block;
   text-align: right;
-  text-color: #FFFFFF;
+  font-size: 15px;
+}
+@media (max-width:800px) {
+  .nav-bar {
+    margin-top: 1.4rem;
+  }
 }
