@@ -142,6 +142,7 @@ html {
 }
 body {
   width: 100%;
+  font-family: 'Montserrat';
 }
 .nav-container {
   background-color: #353d45;
@@ -172,7 +173,7 @@ body {
     color: #FFFFFF;
   }
 }
-header {
+.main-header {
   width: 100%;
   height: 100vh;
   background-color: #000a;
@@ -185,12 +186,12 @@ header {
   justify-content: center;
   background-blend-mode: multiply;
 }
-header h1 {
+.main-header h1 {
   font-size: 6rem;
   color: #FFFFFF;
   margin: 10px 0;
 }
-header p {
+.main-header p {
   font-size: 3rem;
   color: #FFFFFF;
 }
@@ -230,10 +231,16 @@ header p {
   font-size: 25px;
   color: #FFFFFF;
 }
-.main-header {
+.main-head {
   width: 100%;
-  height: 400px;
-  margin-bottom: 0;
+  height: 100vh;
+  background-image: url("../img/profile-photos/concert.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .container {
   background: #353d45;
@@ -243,11 +250,11 @@ header p {
 .container h1 {
   text-align: center;
   color: #FFFFFF;
-  font-size: 24px;
+  font-size: 3rem;
 }
 .fa-github {
   color: white;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .team-members {
   width: 100%;
@@ -265,8 +272,8 @@ header p {
 }
 .team-members .member .profile-photo {
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
 }
 footer {
   width: 100%;
