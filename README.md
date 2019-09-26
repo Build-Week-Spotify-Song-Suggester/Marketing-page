@@ -1,1 +1,1 @@
-# Marketing-page_1
+Marketing landing page and About Us page built for the Web Unit 1 Build Week.  
