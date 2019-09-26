@@ -1,11 +1,4 @@
-body {
-    @media @mobile {
-        background:#84bd00;
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-    } 
-    }
+
 
 
 
@@ -16,6 +9,7 @@ body {
 
     background-image: url("../img/profile-photos/concert.png");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -24,21 +18,17 @@ body {
 
 }
 
-
-
-
 .container {
     background: @darkgray;
     padding-top: 20px;
     width: 100%;
 
-    h1 {
-        text-align: center;
-        color: @white;
-
-        font-size: 3rem;
-    }
 }
+        .our_team {
+            text-align: center;
+            color: @white;
+            font-size: 3rem;
+        }
 
 .fa-github {
     color: white;
@@ -46,24 +36,27 @@ body {
 }
 
 .team-members {
-    border: 2px solid green;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+   
 
     .member {
         width: 25%;
-        margin: 20px;
+        margin: 2%;
         text-align: center;
         font-size: 16px;
         color: @white;
 
         .profile-photo {
-            border-radius: 50%;
-            width: 200px;
-            height: 200px;
+            border-radius: 49%;
+            width: 70%;
+            min-width: 125px;
+            max-width: 225px;
+            height: auto;
+           
         }
     }
 }

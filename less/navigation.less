@@ -19,15 +19,20 @@
        width:30%;
        display:flex;
        justify-content: space-evenly;
+
+       @media @mobile {
+           width: 50%;
+       }
        
     a{
+        width: 120px;
         color:@white;
         text-decoration:none;
     }
    }
     
     @media @mobile {
-        margin-top: 1.4rem;
+        // margin-top: 1.4rem;
         color:@white;
     }
 }
