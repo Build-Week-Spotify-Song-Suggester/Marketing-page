@@ -1,0 +1,39 @@
+// navigation styles
+
+.nav-container {
+    background-color: @darkgray;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 15px;
+    height: 30px;
+    align-items: center;
+
+
+    .spotlogo {
+        display: flex;
+        padding-left: 15px;
+        color: @white;
+    }
+
+    .navigation {
+        width: 30%;
+        display: flex;
+        justify-content: space-evenly;
+
+        @media @mobile {
+            width: 50%;
+        }
+
+        a {
+            width: 120px;
+            color: @white;
+            text-decoration: none;
+        }
+    }
+
+    @media @mobile {
+        // margin-top: 1.4rem;
+        color: @white;
+    }
+}
